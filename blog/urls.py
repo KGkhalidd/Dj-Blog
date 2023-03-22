@@ -6,5 +6,6 @@ urlpatterns = [
     
     # the first slug just to trigger it is a name with some dashes -- and the second we will pass it in views
     path('posts/<slug:slug>/', views.SinglePostView.as_view(), name='post-detail-page'),
+    path('read-later/', views.ReadLaterView.as_view(), name='read-later')
 
 ]

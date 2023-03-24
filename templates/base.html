@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock title %}</title>
     <link rel="stylesheet" href="{% static 'app.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">
     {% block css_files %}{% endblock css_files %}
 </head>
 <body>
@@ -21,5 +23,32 @@
 
     {% block body %}
     {% endblock body %}
+
+    <section id="about">
+        <h2>What I Do</h2>
+        <p>
+            I love programming, help others and enjoy exploring new
+            technologies in general!
+        </p>
+        <p>
+            My goal is to keep on growing as a developer - and if I could help you do
+            the same, I'd be very happy! &#128512;
+        </p>
+        <div class="quote">
+            <p>As i say : Don't just exist , Live and code &#x1F54A;</p>
+        </div>
+        
+
+        <div class="social-icons">
+            <a href="https://twitter.com/KGkhalidd" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/KGkhalidd" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/KGkhalidd" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/KGkhalidd" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+    </section>
+
+    
+    
 </body>
 </html>

@@ -2,6 +2,9 @@
 Also it have a session for every user to add posts for Read Later or remove from the list 'stored posts'
 u can comment on every post by adding ur username , email and the comment
 
+u can see it deployed from here :
+https://kgkhalidd.pythonanywhere.com/
+
 ### Installation
 
 1. Clone the Repo

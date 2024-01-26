@@ -1,6 +1,4 @@
-# This is a Django project that implements a personal blog. The project includes functionality for creating, editing, and deleting blog posts, as well as for searching and filtering blog posts by author, category, and publication date.
-Also it have a session for every user to add posts for Read Later or remove from the list 'stored posts'
-u can comment on every post by adding ur username , email and the comment
+Developed a Django-based personal blog project with CRUD functionalities for creating, editing, and deleting blog posts. Implemented robust search and filtering features by author, category, and publication date. Included a user session feature for adding posts to a 'Read Later' list and removing from the stored posts. Users can engage through comments by providing username, email, and comments on each post.
 
 u can see it deployed from here :
 https://kgkhalidd.pythonanywhere.com/
